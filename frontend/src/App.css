@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #374151;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input, select {
+  flex: 1;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #374151;
+}
+
+.error {
+  color: #ef4444;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #111827;
+}
+
+.card h3::before {
+  content: attr(data-rank);
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.card p {
+  margin: 0 0 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
