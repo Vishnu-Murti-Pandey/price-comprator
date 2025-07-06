@@ -6,6 +6,24 @@ The application consists of:
 - 🚀 Node.js + Express backend API serving dummy product data  
 - ⚛️ React frontend client for querying and displaying sorted product prices  
 
+---
+
+## 📸 Proof of Working
+
+The application has been tested and verified for the following input:
+
+**Request**
+```json
+{"country": "US", "query": "iPhone 16 Pro, 128GB"}
+```
+
+### 📸 Proof Screenshot
+![Proof of Working](./proof/proof_img.png)
+
+
+### 🎥 Demo Video
+[Click to watch demo video](./proof/proof_video.mp4)
+
 
 ---
 
