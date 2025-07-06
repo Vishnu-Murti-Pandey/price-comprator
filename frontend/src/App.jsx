@@ -65,7 +65,7 @@ function App() {
               #{idx + 1} — {item.productName}
             </h3>
             <p>
-              Price:{" "}
+              Price:
               <strong>
                 {item.currency} {item.price}
               </strong>

@@ -19,7 +19,8 @@ export const dummyProducts = Array.from({ length: 100 }, (_, index) => {
     'DJI Mini 4 Pro Drone',
     'GoPro Hero 13 Black',
     'Nothing Phone 3',
-    'Lenovo Legion 7i'
+    'Lenovo Legion 7i',
+    'Samsung Galaxy S24'
   ];
 
   const stores = [
